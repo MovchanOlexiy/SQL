@@ -154,4 +154,13 @@ WHERE City LIKE '%a';
 SELECT * FROM Customers
 WHERE City LIKE '%a%';
 -----------------------
-28.
+28. Select all records where the value of the City column starts with letter "a" and ends with the letter "b".
+
+SELECT * FROM Customers
+WHERE City LIKE 'a%b';
+-----------------------
+29. Select all records where the value of the City column does NOT start with the letter "a".
+
+SELECT * FROM Customers
+WHERE City NOT LIKE 'a%';
+=======================
