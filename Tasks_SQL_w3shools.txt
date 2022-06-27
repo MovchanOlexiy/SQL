@@ -197,3 +197,4 @@ WHERE Country IN ('Norway',  'France');
 
 SELECT * FROM Customers
 WHERE country NOT IN ('Norway', 'France');
+=======================
