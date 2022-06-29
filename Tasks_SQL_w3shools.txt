@@ -264,6 +264,14 @@ SELECT COUNT(CustomerID), Country
 FROM Customers
 GROUP BY Country
 ORDER BY COUNT(CustomerID) DESC;
+=======================
+DATABASES
+-----------------------
+46. Write the correct SQL statement to create a new database called testDB.
 
-ALTER TABLE Persons
-DROP COLUMN Birthday;
+CREATE database testDB;
+-----------------------
+47. Write the correct SQL statement to delete a database named testDB.
+
+DROP database testDB;
+-----------------------
