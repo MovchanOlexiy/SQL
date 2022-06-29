@@ -249,3 +249,21 @@ SELECT *
 FROM Orders
 RIGHT JOIN Customers
 ON Orders.CustomerID=Customers.CustomerID;
+=======================
+GROUP BY
+-----------------------
+44. List the number of customers in each country.
+
+SELECT COUNT(CustomerID), Country
+FROM Customers
+GROUP BY Country;
+-----------------------
+45. List the number of customers in each country, ordered by the country with the most customers first.
+
+SELECT COUNT(CustomerID), Country
+FROM Customers
+GROUP BY Country
+ORDER BY COUNT(CustomerID) DESC;
+
+ALTER TABLE Persons
+DROP COLUMN Birthday;
