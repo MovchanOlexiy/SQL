@@ -285,3 +285,5 @@ CREATE TABLE Persons
   Address varchar(255),
   City varchar(255) 
 );
+-----------------------
+49. Write the correct SQL statement to delete a table called Persons.
