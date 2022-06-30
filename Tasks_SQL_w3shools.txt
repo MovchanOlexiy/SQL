@@ -275,3 +275,4 @@ CREATE database testDB;
 
 DROP database testDB;
 -----------------------
+48. Write the correct SQL statement to create a new table called Persons.
