@@ -294,4 +294,5 @@ DROP table Persons;
 
 TRUNCATE table Persons;
 -----------------------
-51. 
+51. Add a column of type DATE called Birthday.
+
