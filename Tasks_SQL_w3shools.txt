@@ -293,3 +293,5 @@ DROP table Persons;
 50. Use the TRUNCATE statement to delete all data inside a table.
 
 TRUNCATE table Persons;
+-----------------------
+51. 
