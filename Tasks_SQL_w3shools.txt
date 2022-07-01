@@ -298,3 +298,5 @@ TRUNCATE table Persons;
 
 ALTER TABLE Persons
 ADD Birthday DATE;
+-----------------------
+52. 
