@@ -265,3 +265,41 @@ FROM Customers
 GROUP BY Country
 ORDER BY COUNT(CustomerID) DESC;
 =======================
+DATABASES
+-----------------------
+46. Write the correct SQL statement to create a new database called testDB.
+
+CREATE database testDB;
+-----------------------
+47. Write the correct SQL statement to delete a database named testDB.
+
+DROP database testDB;
+-----------------------
+48. Write the correct SQL statement to create a new table called Persons.
+
+CREATE TABLE Persons
+ (
+  PersonID int,
+  LastName varchar(255),
+  FirstName varchar(255),
+  Address varchar(255),
+  City varchar(255) 
+);
+-----------------------
+49. Write the correct SQL statement to delete a table called Persons.
+
+DROP table Persons;
+-----------------------
+50. Use the TRUNCATE statement to delete all data inside a table.
+
+TRUNCATE table Persons;
+-----------------------
+51. Add a column of type DATE called Birthday.
+
+ALTER TABLE Persons
+ADD Birthday DATE;
+-----------------------
+52. Delete the column Birthday from the Persons table.
+
+ALTER TABLE Persons
+DROP COLUMN Birthday;
